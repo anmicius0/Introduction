@@ -1,8 +1,29 @@
-.title {
+::selection {
+  color: #ffffff;
+  background-color: #000000; }
+
+.index_title {
   text-align: center;
   margin: 10%, 20%;
   padding: 10%;
   font-family: 'Major Mono Display', monospace;
   font-size: 60px; }
+
+@media screen and (min-width: 960px) {
+  .index_card {
+    font-family: 'Montserrat', sans-serif; }
+    .index_card img {
+      max-height: 217px; }
+    .index_card li:hover {
+      background-color: #d9f1ff9f; } }
+@media screen and (max-width: 960px) {
+  .index_card {
+    margin: 15px;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 348px; }
+    .index_card img {
+      max-height: 217px; }
+    .index_card li:hover {
+      background-color: #d9f1ff9f; } }
 
 /*# sourceMappingURL=style.css.map */
