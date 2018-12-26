@@ -1,17 +1,26 @@
+.page_title {
+  align-items: flex-start;
+  text-align: left; }
+
 ::selection {
   color: #ffffff;
   background-color: #000000; }
 
-.index_title {
+#index_title {
   text-align: center;
   margin: 10%, 20%;
   padding: 10%;
   font-family: 'Major Mono Display', monospace;
   font-size: 60px; }
 
+.index_card {
+  font-family: 'Montserrat', sans-serif; }
+  .index_card img {
+    max-height: 217px; }
+  .index_card li:hover {
+    background-color: #d9f1ff9f; }
+
 .page_title {
-  align-items: flex-start;
-  text-align: left;
   margin: 10%;
   margin-left: 0%;
   font-family: 'Major Mono Display', monospace;
@@ -20,37 +29,18 @@
 .page_content {
   font-family: 'Oswald', sans-serif; }
   .page_content p {
-    font-size: 50px;
-    font-weight: 400; }
+    font-size: 50px; }
   .page_content .page_table {
     width: 60%; }
     .page_content .page_table tr {
       margin: 20px; }
-    .page_content .page_table th {
-      font-weight: 200;
-      font-size: 25px; }
-    .page_content .page_table td {
+    .page_content .page_table th, .page_content .page_table td {
       font-weight: 200;
       font-size: 25px; }
 
-#computer_pic {
-  background-image: url(/img/coding_man.jpg); }
-
-@media screen and (min-width: 960px) {
-  .index_card {
-    font-family: 'Montserrat', sans-serif; }
-    .index_card img {
-      max-height: 217px; }
-    .index_card li:hover {
-      background-color: #d9f1ff9f; } }
 @media screen and (max-width: 960px) {
   .index_card {
     margin: 15px;
-    font-family: 'Montserrat', sans-serif;
-    max-width: 348px; }
-    .index_card img {
-      max-height: 217px; }
-    .index_card li:hover {
-      background-color: #d9f1ff9f; } }
+    max-width: 348px; } }
 
 /*# sourceMappingURL=style.css.map */
